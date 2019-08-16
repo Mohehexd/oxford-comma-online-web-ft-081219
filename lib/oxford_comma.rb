@@ -14,3 +14,5 @@ end
 #["kiwi,","durian,", "starfruit"].insert(2,"and").join(" ") √
 #["kiwi", "durian"].insert(1,"and").join(" ") √
 #["kiwi"].join("") √
+
+#["kiwi,","durian,", "starfruit,", "mangos,", "dragon fruits,", "lychees,", "pomelos"].insert(6,"and").join(" ")
