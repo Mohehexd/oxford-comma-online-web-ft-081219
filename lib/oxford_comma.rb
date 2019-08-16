@@ -1,6 +1,6 @@
 def oxford_comma(array)
 ["kiwi"].join("")
-array.insert(1,"and")
+
 end
 
 
