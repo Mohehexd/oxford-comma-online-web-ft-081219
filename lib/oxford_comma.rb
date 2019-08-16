@@ -11,7 +11,6 @@ def oxford_comma(array)
     return array.join(", " )
   end
 
-  elsif.length 
 end
 
 #["kiwi"].join("") √
