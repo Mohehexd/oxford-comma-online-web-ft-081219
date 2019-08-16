@@ -11,3 +11,4 @@ end
 #["kiwi,","durian,", "starfruit,", "mangos,", "dragon fruits"].insert(4,"and").join(" ") √
 #["kiwi,","durian,", "starfruit,", "mangos,", "dragon fruits,", "lychees,", "pomelos"].insert(6,"and").join(" ") √
 
+#ary.insert(index, obj...)
