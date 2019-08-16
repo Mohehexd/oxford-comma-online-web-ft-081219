@@ -1,15 +1,19 @@
 def oxford_comma(array)
-if array <=1
-  return.join("") 
-  
-elsif array <=2
-return array.insert(1,"and").join(" ") 
+def oxford_comma(array)
+  if array.length <= 1 
+    return array.join
+    
+  elsif array.length == 2 
+    return array.join(" and ")
+    
+  elsif array.length == 3
+    array[-1].insert(0, "and ")
+    
+    return array.join(", " )
+  end
 
-elsif array <=3
-return array.insert(2,"and").join(" ") 
 
-else array <=5
-  return array.insert(4,"and").join(" ")
+end
 end
 
 #["kiwi"].join("") √
