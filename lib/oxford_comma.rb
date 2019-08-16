@@ -9,7 +9,7 @@ elsif array <=3
 return array.insert(2,"and").join(" ") 
 
 else array <=5
-  return array.insert(4,"and").join(" ") ["kiwi,","durian,", "starfruit,", "mangos,", "dragon fruits,", "lychees,", "pomelos"].insert(6,"and").join(" ") 
+  return array.insert(4,"and").join(" ")
 end
 
 #["kiwi"].join("") √
