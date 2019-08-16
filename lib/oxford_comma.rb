@@ -5,13 +5,13 @@ def oxford_comma(array)
   elsif array.length == 2 
     return array.join(" and ")
     
-  elsif array.length == 3
+  elsif array.length >= 3
     array[-1].insert(0, "and ")
     
     return array.join(", " )
   end
 
-  else array.sort
+  elsif.length 
 end
 
 #["kiwi"].join("") √
